@@ -1,6 +1,7 @@
 package github
 
 import (
+	"slices"
 	"context"
 	"time"
 
@@ -213,10 +214,5 @@ func isCheckRunWithoutLogs(name string) bool {
 		"SonarCloud",
 		"Codecov",
 	}
-	for _, pattern := range skipPatterns {
-		if name == pattern {
-			return true
-		}
-	}
-	return false
+	return slices.Contains(skipPatterns, name)
 }
