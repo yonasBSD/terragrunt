@@ -47,7 +47,7 @@ func TestAwsExampleLiveStacks(t *testing.T) {
 		"https://github.com/gruntwork-io/terragrunt-infrastructure-live-stacks-example.git",
 		repoDir,
 	)
-	helpers.ExecWithTestLogger(t, repoDir, "git", "checkout", "3649bd95c93074e6a3742bc5122e411505c24c3a")
+	helpers.ExecWithTestLogger(t, repoDir, "git", "checkout", "5da4c11ec479b3badc3abf984113f2820b69f31c")
 
 	helpers.ExecWithTestLogger(t, repoDir, "mise", "trust")
 	helpers.ExecWithTestLogger(t, repoDir, "mise", "install")
