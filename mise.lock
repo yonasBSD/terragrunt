@@ -11,6 +11,7 @@ url = "https://github.com/bats-core/bats-core/archive/refs/tags/v1.13.0.tar.gz"
 url = "https://github.com/bats-core/bats-core/archive/refs/tags/v1.13.0.tar.gz"
 
 [tools.bats."platforms.linux-x64"]
+checksum = "blake3:d34af9fd0f9101d5309b2de31f3d1699e56a574d7d4b5e6380580a9e758a9744"
 url = "https://github.com/bats-core/bats-core/archive/refs/tags/v1.13.0.tar.gz"
 
 [tools.bats."platforms.linux-x64-baseline"]
@@ -132,6 +133,7 @@ version = "2.1.0"
 backend = "aqua:jstemmer/go-junit-report"
 
 [tools.go-junit-report."platforms.linux-x64"]
+checksum = "blake3:309c665e7decfd91af75cd982b105f82b4ba70b84233b0d1341e26f4f2a351f0"
 url = "https://github.com/jstemmer/go-junit-report/releases/download/v2.1.0/go-junit-report-v2.1.0-linux-amd64.tar.gz"
 
 [tools.go-junit-report."platforms.linux-x64-baseline"]

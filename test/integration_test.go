@@ -62,7 +62,7 @@ const (
 	testFixtureExternalDependency             = "fixtures/external-dependency/"
 	testFixtureExtraArgsPath                  = "fixtures/extra-args/"
 	testFixtureFailedTerraform                = "fixtures/failure"
-	testFixtureFindParent                     = "fixtures/find-parent"
+	
 	testFixtureFindParentWithDeprecatedRoot   = "fixtures/find-parent-with-deprecated-root"
 	testFixtureGetOutput                      = "fixtures/get-output"
 	testFixtureGetTerragruntSourceCli         = "fixtures/get-terragrunt-source-cli"
@@ -88,10 +88,10 @@ const (
 	testFixtureNoSubmodules                   = "fixtures/no-submodules/"
 	testFixtureNullValue                      = "fixtures/null-values"
 	testFixtureOutDir                         = "fixtures/out-dir"
-	testFixtureOutputAll                      = "fixtures/output-all"
-	testFixtureParallelRun                    = "fixtures/parallel-run"
-	testFixtureParallelStateInit              = "fixtures/parallel-state-init"
-	testFixtureParallelism                    = "fixtures/parallelism"
+	
+	
+	
+	
 	testFixturePath                           = "fixtures/terragrunt/"
 	testFixturePlanfileOrder                  = "fixtures/planfile-order-test"
 	testFixtureProviderCacheDependency        = "fixtures/provider-cache/dependency"
@@ -108,7 +108,7 @@ const (
 	testFixtureSourceMapSlashes               = "fixtures/source-map/slashes-in-ref"
 	testFixtureStack                          = "fixtures/stack/"
 	testFixtureStdout                         = "fixtures/download/stdout-test"
-	testFixtureTfTest                         = "fixtures/tftest/"
+	
 	testFixtureExecCmd                        = "fixtures/exec-cmd"
 	testFixtureExecCmdTfPath                  = "fixtures/exec-cmd-tf-path"
 	testFixtureLogStreaming                   = "fixtures/streaming"
